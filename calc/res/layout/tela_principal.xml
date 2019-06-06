@@ -1,0 +1,175 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_weight="6"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".TelaPrincipal" >
+    
+
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    
+    	<TextView
+    	    android:id="@+id/txtN1"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/n1"
+    	    android:textColor="@android:color/black"
+    	    android:textSize="30sp" />
+    	
+    	<EditText
+    	    android:id="@+id/editN1"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberDecimal"
+	        android:textColor="@android:color/black"
+	        android:textSize="30sp" />
+    
+    
+</LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/txtN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/n2"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <EditText
+        android:id="@+id/editN2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:inputType="numberDecimal"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+</LinearLayout>
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1">
+    
+    <Button 
+        android:id="@+id/btnMais"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/mais"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+    
+    <Button 
+        android:id="@+id/btnMenos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/menos"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+    
+    
+</LinearLayout>
+
+    
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+    
+        <Button 
+        android:id="@+id/btnDiv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/div"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+    
+    <Button 
+        android:id="@+id/btnMult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/mult"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+    
+    
+    
+</LinearLayout>
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_weight="1" >
+    
+    <Button 
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:text="@string/clear"
+        android:textColor="@android:color/black"
+        android:textSize="30sp"
+        />
+    
+    
+</LinearLayout>
+
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="1" >
+    
+    
+    	<TextView
+    	    android:id="@+id/txtResult"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/result"
+    	    android:textColor="@android:color/black"
+    	    android:textSize="30sp" />
+    	
+    	<EditText
+    	    android:id="@+id/editResult"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_weight="1"
+	        android:inputType="numberDecimal"
+	        android:textColor="@android:color/black"
+	        android:textSize="30sp" />
+    
+    
+</LinearLayout>
+    
+
+</LinearLayout>
